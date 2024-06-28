@@ -1,0 +1,19 @@
+# Theme Change for Spring Boot Starter
+# Copyright (c) 2022 Yookue Ltd. All rights reserved.
+# https://yookue.com
+
+
+spring:
+    theme-change:
+        model-and-view:
+            tag-names:
+                'default': 'Default'
+                'blue': 'Sea Blue'
+                'dark': 'Dark night'
+        theme-interceptor:
+            param-name: 'theme'
+        theme-source:
+            basename-prefix: 'theme.'
+        cookie-theme-resolver:
+            cookie-http-only: true
+            default-theme-name: 'default'

@@ -1,0 +1,9 @@
+# Theme Change for Spring Boot Starter
+# Copyright (c) 2022 Yookue Ltd. All rights reserved.
+# https://yookue.com
+
+org.springframework.boot.autoconfigure.EnableAutoConfiguration =\
+    com.yookue.springstarter.themechange.config.ThemeChangeResolverConfiguration,\
+    com.yookue.springstarter.themechange.config.ThemeChangeInterceptorConfiguration,\
+    com.yookue.springstarter.themechange.config.ThemeChangeSourceConfiguration,\
+    com.yookue.springstarter.themechange.config.ThemeChangeViewConfiguration
